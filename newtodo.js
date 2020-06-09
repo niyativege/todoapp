@@ -116,7 +116,7 @@ const todo = sequelize.define('todo', {
 // Done with Database
 
 // creating API's
-app.get('/', function (res, req) {
+app.get('/', function (req, res) {
     res.statusCode(200).json({
         success: true,
         data: "Home Url"
