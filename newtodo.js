@@ -18,7 +18,7 @@ const port = 8000;
 //     dialect: 'postgres'
 // });
 
-const sequelize = new Sequelize('todo', 'navaneethnivol', 'Admin123', {
+const sequelize = new Sequelize('todo', 'postgres', 'ilovesamata', {
     host: 'localhost',
     dialect: 'postgres'
 });
